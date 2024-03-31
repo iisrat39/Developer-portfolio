@@ -5,13 +5,16 @@ body{
 h1{
     font-size: 50px;
 }
+h2{
+    font-size: 40px;
+}
 .orange{
     color: orange;
 }
 span{
     color: rgb(230, 146, 38);
 }
-section{
+.flexible{
     display: flex;
     margin-bottom: 100px;
 }
@@ -21,6 +24,12 @@ section{
 }
 .half-width img{
     width: 80%;
+}
+.alada{
+    background-image: url(image/94731.webp);
+    background-repeat: no-repeat;
+    background-size: 200px 75px;
+    background-position: right;
 }
 .link-button{
     text-decoration: none;
@@ -34,10 +43,33 @@ section{
 .top-banner{
     background-image: url(image/94731.webp);
     background-repeat: no-repeat;
-    background-position: top;
+    background-size: 200px 75px;
 }
 .big-dream{
     background-image: url(https://img.freepik.com/free-vector/wave-background_53876-115944.jpg?w=826&t=st=1711785590~exp=1711786190~hmac=b788007b84ba55665d8bcddcefeb1ccd60f72b0332fbd46cc4e519e6877d9624);
     background-repeat: no-repeat;
     background-position: 100%;
+}
+.experience-area{
+    background-image: url(image/ex-removebg-preview.png);
+    background-repeat: no-repeat;
+    background-size: 200px 100px;
+}
+.experience-item{
+    width: 40%;
+    padding: 20px;
+    margin-left: 5%;
+    margin-right: 5%;
+    box-shadow: 10px 20px 40px grey;
+    border-radius: 10px;
+    border-radius: 10px solid gray;    
+}
+#left-border{
+    border-left: 7px solid tomato;
+}
+#right-border{
+    border-left: 7px solid olive;
+}
+footer{
+    text-align: center;
 }
