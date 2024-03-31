@@ -13,6 +13,7 @@ span{
 }
 section{
     display: flex;
+    margin-bottom: 100px;
 }
 .half-width{
     width: 50%;
@@ -31,7 +32,12 @@ section{
     border-radius: 5px;
 }
 .top-banner{
-    background-image: url(image/360_F_453710891_sm4ap4xn5gSJKXDhduXKXh9kF1Mo6tDj.webp);
+    background-image: url(image/94731.webp);
+    background-repeat: no-repeat;
+    background-position: top;
+}
+.big-dream{
+    background-image: url(https://img.freepik.com/free-vector/wave-background_53876-115944.jpg?w=826&t=st=1711785590~exp=1711786190~hmac=b788007b84ba55665d8bcddcefeb1ccd60f72b0332fbd46cc4e519e6877d9624);
     background-repeat: no-repeat;
     background-position: 100%;
 }
